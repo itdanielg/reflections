@@ -17,3 +17,7 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 --Merging two branches together gets all the commits from before the head of both branches into the same branch.
 --The diagram makes it clear where the branches come together and what commits should be included.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+--Well the obvious pro of automatic merging is you don't have to do it, a con would be maybe you need to decide whether you need both changes or only one in certain cases.
+--Pro of always doing merges manually would be more control, big con with that is that you really might not need to unless there's conflicts so it may be a waste of time.
