@@ -15,3 +15,7 @@ What is the benefit of having a copy of the last known state of the remote store
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 --Without Git, you could use something like SVN to checkout files for changes, but that slows things down unless you're never working in the same file.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+--Making changes in master has the benefit of speed I suppose since you don't have to merge, but it's not a good practice.
+--Making changes in a separate branch allows you to easily work on a feature separately of other changes and gives you a better way to revert if necessary.
